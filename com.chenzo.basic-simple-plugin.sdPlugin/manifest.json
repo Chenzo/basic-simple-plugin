@@ -19,14 +19,14 @@
 			]
 		},
 		{
-			"Name": "Payload Inspector",
+			"Name": "Payload Inspector Test",
 			"UUID": "com.chenzo.basic-simple-plugin.payload",
 			"Icon": "imgs/actions/counter/icon",
 			"Tooltip": "Two Drop Pieces of Data...",
 			"Controllers": [
 				"Keypad"
 			],
-			"PropertyInspector": "inspectors/inspector.html",
+			"PropertyInspectorPath": "inspectors/inspector.html",
 			"States": [
 				{
 					"Image": "imgs/actions/counter/key",

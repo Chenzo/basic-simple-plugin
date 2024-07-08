@@ -73,3 +73,28 @@ at this point you can hit the counter a couple of times in the Stream Deck and l
 
 change the console.log and save the file and the plugin will automatically reload in the Stream Deck app and also have the debugger re-attach and show the new message in the Debug Console.
 
+
+
+-------
+
+## Step 8: 
+
+- create new action by cloning the `increment-counter.ts` file and renaming it to `payload.ts`
+- register it in the `manifest.json` file
+- create a new file in the `src` folder called `inspectors/inspector.html` 
+- add the following to the `manifest.json` file:
+
+```json
+"PropertyInspectorPath": "inspectors/inspector.html",
+```
+
+To make the components,use https://sdpi-components.dev/
+
+add new constant in payload.ts:
+
+```typescript
+type PayLoadInspecSettings = {
+	count: number;
+	fav_color: string;
+};
+```
