@@ -25,6 +25,8 @@ export class IncrementCounter extends SingletonAction<CounterSettings> {
 		let count = ev.payload.settings.count ?? 0;
 		count++;
 
+		console.log("This should show in DEBUG CONSOLE");
+
 		// Update the current count in the action's settings, and change the title.
 		await ev.action.setSettings({ count });
 		await ev.action.setTitle(`${count}`);
