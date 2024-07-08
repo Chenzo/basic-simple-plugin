@@ -14,7 +14,10 @@
 			],
 			"resolveSourceMapLocations": [
 				"${workspaceFolder}/**"
-			]
+			],
+			"address": "127.0.0.1",
+			"restart": true,
+			"port": 54545
 		}
 	]
 }
