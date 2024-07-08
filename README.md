@@ -2,6 +2,9 @@
 
 # Stream Deck CLI Simple Plugin
 
+
+I wanted the most basic and simpliest way to set up a Stream Deck plugin with the CLI and have it work with the debugger in VSCode.  This repo is the result of following the steps below.
+
 ## Step 1:
 install CLI from: https://github.com/elgatosf/streamdeck 
 
@@ -27,7 +30,7 @@ after launching the Stream Deck app, you should see the plugin and the default C
 
 
 ## Step 4:
-adjust the Nodejs Debug value in the `manifest.json` file from true to (pick the same port as the next step):
+adjust the Nodejs Debug value in the `manifest.json` file from `enabled` to the following (pick the same port as the next step):
 
 ```json
 "Nodejs": {
