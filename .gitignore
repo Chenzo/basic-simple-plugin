@@ -10,7 +10,7 @@ node_modules/
 .idea/**
 /src/DistributionTool
 com.elgato.template.streamDeckPlugin
-.vscode/**
+# .vscode/**
 .history
 __exclude
 .editorconfig
