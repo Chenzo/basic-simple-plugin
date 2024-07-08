@@ -26,7 +26,11 @@ after launching the Stream Deck app, I was able to see the plugin:
 ![Stream Deck App](./docs/step3.png)
 
 
-##Step 4:
+## Step 4:
 Run the debugger in VS Code - f5
+
+This seems to fail - kinda.
+
+Debugging works, but needs to be attached. 
 
 
